@@ -19,4 +19,8 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/book', function () {
+    return view('book');
+});
+
 Route::resource('mahasiswa', MahasiswaController::class);
