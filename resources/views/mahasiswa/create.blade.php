@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.main')
 @section('content')
 
 <h2>Tambah Mahasiswa</h2>
